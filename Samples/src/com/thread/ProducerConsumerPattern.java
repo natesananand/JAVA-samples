@@ -9,7 +9,7 @@ public class ProducerConsumerPattern {
 
 	public static void main(String args[]) {
 
-		// Creating shared object
+		
 		BlockingQueue sharedQueue = new LinkedBlockingQueue(4);
 
 		// Creating Producer and Consumer Thread

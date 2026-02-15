@@ -10,25 +10,8 @@ public class SQLLOader {
 		 command.append("control=D:\\work\\FCPBREL12.0.3.0.0_SUSTENANCE\\PBBATCHSERVER\\FeedFiles\\in\\control_file\\OPTN_MS.ctl _display_exitcode=true ");
 				 command.append("readsize=1301000 bindsize=1301000 log=D:\\work\\FCPBREL12.0.3.0.0_SUSTENANCE\\PBBATCHSERVER\\FeedFiles\\in\\logs\\OPTN_MS.log ");
 						 command.append("bad=D:\\work\\FCPBREL12.0.3.0.0_SUSTENANCE\\PBBATCHSERVER\\FeedFiles\\in\\bad\\OPTN_MS.bad ");
-						 
-						 
-					
-						 
-						 System.out.println(command.toString());
-						 
-						 
-					//	 String command1 =command.toString();
-					//	 
-						 //command1.replaceAll("\\\\", "\\");
-		
-						 
-						 
-					//	  String path_separator = "Path separator is: " + System.getProperty("path.separator");
-						//  
-						//  String file_separator = "file separator is: " + System.getProperty("file.separator");
-						  
-						//	 System.out.println(path_separator);
-							// System.out.println(file_separator);
+
+
 						 
 						 String[] command1=command.toString().split(" ");
 						 
